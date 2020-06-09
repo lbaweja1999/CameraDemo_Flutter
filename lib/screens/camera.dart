@@ -34,12 +34,9 @@ class _CameraDemoState extends State<CameraDemo> {
         centerTitle: true,
         backgroundColor: Colors.blue,
       ),
-      body: Container(
-        margin: EdgeInsets.only(left: 120),
+      body: Center(
         child: Column(
-//          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
-
           children: <Widget>[
             RaisedButton(
               child: Text('Camera Open'),
